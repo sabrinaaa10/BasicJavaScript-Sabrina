@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Temperature Converter 🌡️</h1>
+        <p>Convert Celsius to Fahrenheit</p>
+
+        <div class="calculator-image">
+        <img src="Assets/icon_suhu.jpg" alt="Temperature illustration"></div>
+
+        <form id="converter-form">
+            <label for="celsius">Temperature in Celsius (°C)</label>
+
+            <input
+                type="number"
+                id="celsius"
+                placeholder="e.g 32"
+                step="any"
+                required
+            >
+
+            <button type="submit">Convert</button>
+        </form>
+
+        <div id="result" class="result" hidden>
+            <p>Result</p>
+            <h2 id="fahrenheit"></h2>
+        </div>
+
+    </div>
+    <script src="sesi5Lec.js" defer></script>
+
+</body>
+</html>
